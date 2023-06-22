@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northfield University</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- cover -->
+    <section class="cover">
+      <nav>
+        <a href="index.html" class="logo"><h2>Northfield</h2></a>
+        <div class="menu" id="navMenu">
+          <i
+            class="fa-solid fa-xmark icon"
+            style="color: #ffffff"
+            onclick="hideMenu()"
+          ></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="our courses.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i
+          class="fa-solid fa-bars icon"
+          style="color: #ffffff"
+          onclick="openMenu()"
+        ></i>
+      </nav>
+      <div class="text">
+        <h1>transformative power</h1>
+        <p>
+          NorthField University is a newly established institution dedicated to
+          fostering academic excellence, innovation, and personal growth.
+        </p>
+        <a href="">visit us to more</a>
+      </div>
+    </section>
+    <!--courses  -->
+    <section class="course" id="course">
+      <h2>Our Courses</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit amet consectetur
+     adipisicing elit.
+      </p>
+      <div class="row">
+        <div class="col">
+          <h3>Biggners</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit amet
+            consectetur adipisi elit. Praesentium, ab. consectetur adipisicing
+            elit. Praesentium, ab.
+          </p>
+        </div>
+        <div class="col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit ametamet consectetur adipisicing elit
+            consectetur adipisi elit. Praesentium, ab. consectetur adipisicing
+            elit. Praesentium, ab.
+          </p>
+        </div>
+        <div class="col">
+          <h3>Advanced</h3>
+          <p>
+            Lorem ipsum dolor sit amet amet consectetur adipisicing elit
+            consectetur adipisi elit. Praesentium, ab. consectetur adipisicing
+            elit. Praesentium, ab.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- campus -->
+    <section class="campus">
+        <h2>Global Campus</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit amet consectetu.
+        </p>
+        <div class="campus-row">
+          <div class="img-col">
+            <div class="layer">
+                <h3>london</h3>
+            </div>
+            <img src="./images/london.png" alt="">
+          </div>
+          <div class="img-col">
+            <div class="layer">
+                <h3>newyork</h3>
+            </div>
+            <img src="./images/newyork.png" alt="">
+          </div>
+          <div class="img-col">
+            <div class="layer">
+                <h3>paris</h3>
+            </div>
+            <img src="./images/washington.png" alt="">
+          </div>
+        </div>
+    </section>
+    <!-- testimonial -->
+    <section class="testimonial">
+        <h2>What Our students say</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit amet consectetur
+       adipisicing elit.
+        </p>
+        <div class="testi-row">
+           <div class="testi-col">
+            <img src="./images/user1.jpg" alt="">
+            <div class="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ullam omnis exercitationem optio laudantium a?</p>
+                <h4>lara ahmed</h4>
+                <div>
+                    <i class="fa-solid fa-star" style="color: #a60a0a;"></i>
+                    <i class="fa-solid fa-star" style="color: #a60a0a;"></i>
+                    <i class="fa-solid fa-star" style="color: #a60a0a;"></i>
+                    <i class="fa-solid fa-star" style="color: #a60a0a;"></i>
+                    <i class="fa-regular fa-star-half-stroke" style="color: #a60a0a;"></i>
+                </div>
+           
+            </div>
+           </div>
+           <div class="testi-col">
+            <img src="./images/user2.jpg" alt="">
+            <div class="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ullam omnis exercitationem optio laudantium a?</p>
+                <h4>ali bakr</h4>
+                <div class="icon">
+                    <i class="fa-solid fa-star" style="color: #a60a0a;"></i>
+                    <i class="fa-solid fa-star" style="color: #a60a0a;"></i>
+                    <i class="fa-solid fa-star" style="color: #a60a0a;"></i>
+                    <i class="fa-solid fa-star" style="color: #a60a0a;"></i>
+                    <i class="fa-regular fa-star" style="color: #a60a0a;"></i>
+                </div>
+           
+            </div>
+           </div>
+        </div>
+    </section>
+    <!-- enroll -->
+    <section class="enroll" id="contact">
+            <h2>
+                enroll for our online courses
+            </h2>
+            <a href="">Contact Us</a>
+        
+    </section>
+    <!-- footer -->
+    <section class="footer">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur
+                 adipisicing elit.<br> Quam cumque dolores consequuntur recusandae<br>
+                consequatur itaque.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook fa-xl" ></i>
+                <i class="fa-brands fa-twitter fa-xl"></i>
+                <i class="fa-brands fa-instagram fa-xl"></i>
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+            </div>
+            
+    </section>
+    <script>
+      var menu = document.getElementById("navMenu");
+      function openMenu() {
+        menu.style.right = "0";
+      }
+      function hideMenu() {
+        menu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

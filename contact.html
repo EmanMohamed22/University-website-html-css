@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northfield University</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- cover -->
+    <section class="about-cover">
+      <nav>
+        <a href="index.html" class="logo"><h2>Northfield</h2></a>
+        <div class="menu" id="navMenu">
+          <i
+            class="fa-solid fa-xmark icon"
+            style="color: #ffffff"
+            onclick="hideMenu()"
+          ></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="our courses.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i
+          class="fa-solid fa-bars icon"
+          style="color: #ffffff"
+          onclick="openMenu()"
+        ></i>
+      </nav>
+      <div class="text">
+        <h3>Contact Us</h3>
+      </div>
+    </section>
+    <!-- contact-us -->
+    <section class="contact-content">
+      
+       <div class="map">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.37451031098!2d31.258464350000004!3d30.059488450000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1687393483123!5m2!1sen!2seg"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+       </div>
+      <div class="contact-us">
+        <div class="contact-row">
+          <div class="contact-col">
+            <div class="info">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>13 Gharb Street Cairo </span>
+            </div>
+            <div class="info">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Northfield@gmail.com </span>
+            </div>
+            <div class="info">
+              <i class="fa-solid fa-phone"></i>
+              <span>0201023568877 </span>
+            </div>
+          </div>
+          <div class="contact-col">
+            <div class="form">
+              <input type="text" placeholder="Name">
+              <input type="email" placeholder="Email">
+              <input type="text" placeholder="Subject">
+              <textarea placeholder="Message " rows="5"></textarea>
+              <button type="submit">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur
+        adipisicing elit.<br />
+        Quam cumque dolores consequuntur recusandae<br />
+        consequatur itaque.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook fa-xl"></i>
+        <i class="fa-brands fa-twitter fa-xl"></i>
+        <i class="fa-brands fa-instagram fa-xl"></i>
+        <i class="fa-brands fa-linkedin fa-xl"></i>
+      </div>
+    </section>
+    <script>
+      var menu = document.getElementById("navMenu");
+      function openMenu() {
+        menu.style.right = "0";
+      }
+      function hideMenu() {
+        menu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

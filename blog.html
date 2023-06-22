@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northfield University</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- cover -->
+    <section class="about-cover">
+      <nav>
+        <a href="index.html" class="logo"><h2>Northfield</h2></a>
+        <div class="menu" id="navMenu">
+          <i
+            class="fa-solid fa-xmark icon"
+            style="color: #ffffff"
+            onclick="hideMenu()"
+          ></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="our courses.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i
+          class="fa-solid fa-bars icon"
+          style="color: #ffffff"
+          onclick="openMenu()"
+        ></i>
+      </nav>
+      <div class="text">
+        <h3>Our Certificate</h3>
+        
+      </div>
+    </section>
+    <!-- blog -->
+    <section class="blog-content">
+      
+     <div class="blog-row">
+        <div class="left-blog">
+          <img src="./images/certificate.jpg" alt="">
+          <h2>Our Certificate & Online Courses </h2>
+          <p>Lorem, ipsum dolor sit et consectetur adipisicing elit. Ea similique
+            perferendis odit sint repudiandae amet consectetur adipisicing elit. Ea similique
+             perferendis odit sint repudiandae facere deserunt, at nesciunt neque magnam.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam necessitatibus
+               repellat expedita debitis perferendis quia ipsam commodi nihil eos beatae facilis maiores, molestiae quis impedit reiciendis ab incidunt, id voluptatum.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolore delectus quis provident neque? Neque in libero voluptatem delectus magnam nobis rem culpa saepe sint cum facere, earum maxime suscipit adipisci nulla et porro cupiditate ipsum obcaecati officiis tempore facilis nemo natus cumque. Aspernatur aliquid et praesentium corporis voluptatibus autem.</p>
+                 <div class="comment">
+                  <h3>Leave Comment</h3>
+                  <div class="form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Leave A Comment" rows="5"></textarea>
+                    <button type="submit">Commit</button>
+                  </div>
+                 </div>
+              </div>
+        <div class="right-blog">
+          <h3>Post Categories</h3>
+          <div class="category">
+            <span>Business Analysis</span>
+            <span>22</span>
+            
+          </div>
+          <div class="category">
+            <span>Computer Science</span>
+            <span>23</span>
+            
+          </div>
+          <div class="category">
+            <span>Computer Science</span>
+            <span>23</span>
+            
+          </div>
+          <div class="category">
+            <span>Computer Science</span>
+            <span>23</span>
+            
+          </div>
+          <div class="category">
+            <span>Computer Science</span>
+            <span>23</span>
+            
+          </div>
+          <div class="category">
+            <span>Data Analysis</span>
+            <span>20</span>
+            
+          </div>
+          <div class="category">
+            <span>Machine Learning</span>
+            <span>30</span>
+            
+          </div>
+        </div>
+       
+    </section>
+    
+
+    <!-- footer -->
+    <section class="footer">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur
+                 adipisicing elit.<br> Quam cumque dolores consequuntur recusandae<br>
+                consequatur itaque.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook fa-xl" ></i>
+                <i class="fa-brands fa-twitter fa-xl"></i>
+                <i class="fa-brands fa-instagram fa-xl"></i>
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+            </div>
+            
+    </section>
+    <script>
+      var menu = document.getElementById("navMenu");
+      function openMenu() {
+        menu.style.right = "0";
+      }
+      function hideMenu() {
+        menu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

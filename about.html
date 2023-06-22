@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Northfield University</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- cover -->
+    <section class="about-cover">
+      <nav>
+        <a href="index.html" class="logo"><h2>Northfield</h2></a>
+        <div class="menu" id="navMenu">
+          <i
+            class="fa-solid fa-xmark icon"
+            style="color: #ffffff"
+            onclick="hideMenu()"
+          ></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="our courses.html">Courses</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i
+          class="fa-solid fa-bars icon"
+          style="color: #ffffff"
+          onclick="openMenu()"
+        ></i>
+      </nav>
+      <div class="text">
+        <h3>About Us</h3>
+        
+      </div>
+    </section>
+    <!-- about-us -->
+    <section class="about">
+     <div class="about-row">
+      <div class="col-about">
+        <h2>We Are The biggest online university</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus vel libero vitae voluptas ex quidem, obcaecati eveniet distinctio hic praesentium suscipit nobis? Ducimushuiohhh commodi error recusandae sit nisi placeat quasi.</p>
+        <a href="">Explore</a>
+      </div>
+      <div class="col-about">
+      <img src="./images/about.jpg" alt="">
+      </div>
+     </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur ipsum dolor sit amet consectetur
+                 adipisicing elit.<br> Quam cumque dolores consequuntur recusandae<br>
+                consequatur itaque.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook fa-xl" ></i>
+                <i class="fa-brands fa-twitter fa-xl"></i>
+                <i class="fa-brands fa-instagram fa-xl"></i>
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+            </div>
+            
+    </section>
+    <script>
+      var menu = document.getElementById("navMenu");
+      function openMenu() {
+        menu.style.right = "0";
+      }
+      function hideMenu() {
+        menu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
